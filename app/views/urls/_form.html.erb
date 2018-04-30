@@ -11,6 +11,12 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= form.label :"enter URL here" %>
+    <%= form.text_field :long, id: :url_long %>
+  </div>
+
+
   <div class="actions">
     <%= form.submit %>
   </div>
